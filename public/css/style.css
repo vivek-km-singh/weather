@@ -20,7 +20,7 @@ body{
 }
 .row{
     margin: 0px;
-    background-color: #1F0B44;
+    background-color: #FBF9B9;
 }
 .container-fluid main_menu{
     background-color: var(--main-bg);
@@ -62,7 +62,44 @@ color: var(--main-color);
         transform: rotate(360deg);
     }
 }
-
+.holi{
+transition: all linear;
+animation: rot 5s linear infinite;
+color: var(--main-color);
+/* width: 10rem;
+height: 10rem; */
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.holi{
+    width: 30rem;
+}
+.h{
+    border-radius: 200px;
+}
+.h{
+    transition: all linear;
+    animation: rot 5s linear infinite;
+    color: var(--main-color);
+    display: flex;
+    /* width: 10rem;
+    height: 10rem; */
+    }
+    @keyframes rot{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+        
+    }
 /* main header  */
 
 .main_header_left {
@@ -241,6 +278,9 @@ footer p{
     color: #fff;
     line-height: 7rem;
     font-size: 1.4rem;
+}
+.vivek{
+    color: #FFF;
 }
 
 
